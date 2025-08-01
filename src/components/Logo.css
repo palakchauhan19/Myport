@@ -1,0 +1,22 @@
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #0f172a;
+  display: inline-block;
+  animation: gentle-shiver 1s infinite ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes gentle-shiver {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  20% { transform: translate(-0.5px, 0.5px) rotate(-0.3deg); }
+  40% { transform: translate(0.5px, -0.5px) rotate(0.3deg); }
+  60% { transform: translate(-0.5px, -0.5px) rotate(-0.2deg); }
+  80% { transform: translate(0.5px, 0.5px) rotate(0.2deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+.highlight {
+  color: #2563eb;
+}

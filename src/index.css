@@ -1,0 +1,52 @@
+/* index.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f8fafc;
+  color: #0f172a;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
+/* ✅ Dark mode support */
+body.dark-mode {
+  background-color: #0f172a;
+  color: #f8fafc;
+}
+
+/* You can optionally darken specific sections if needed */
+body.dark-mode .navbar {
+  background-color: rgba(15, 23, 42, 0.85);
+}
+
+body.dark-mode .nav-links li {
+  color: #f8fafc;
+}
+
+body.dark-mode .mode-toggle-icon {
+  color: #f8fafc;
+}
+
+body.dark-mode .nav-links li:hover {
+  color: #60a5fa;
+}
+
+body.dark-mode .nav-links li::after {
+  background-color: #60a5fa;
+}
+
+body.dark-mode .menu-toggle {
+  color: #f8fafc;
+}
